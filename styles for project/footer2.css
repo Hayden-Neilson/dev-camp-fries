@@ -1,0 +1,39 @@
+.footer {
+    height: 100%;
+    background-color: #191A1D;
+    margin-bottom: 0px;
+    background-image: linear-gradient(to right, #3F4650, #0C0D0F);
+        
+}
+
+.footer > .footer-text-wrapper {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+
+}
+
+.footer > .footer-text-wrapper > .text-wrapper {
+    background-color: #36383F;
+    border: 2px solid #4E4F52;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.footer > .footer-text-wrapper > .text-wrapper a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer > .footer-text-wrapper > .text-wrapper span {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 900;
+    
+}
